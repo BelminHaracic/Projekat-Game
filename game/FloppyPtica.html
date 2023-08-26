@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Leteci Belmin</title>
+	<link rel="stylesheet" type="text/css" href="FloppyPticaStyles.css">
+</head>
+<body onload="startGame()">
+	<h1>Leteci Belmin</h1>
+	
+	<audio id="zvuk" src="zvuk/klik.wav"></audio>
+	
+
+
+	<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)" onclick="playSound()">SKOK</button>
+
+	<img src="slike/pticaslika.png" class="pticica">
+	
+	<script src="FloppyPticaScript.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  background-image: url("slike/LKMpozadina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 36px;
+  text-shadow: 1px 1px 1px #040127; 
+  font-family: Arial, sans-serif;
+
+}
+
+#choices {
+  margin-top: 10px;
+}
+
+button {
+  padding: 12px 35px;
+  font-size: 24px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  border: 2px solid #141414;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 7px 7px 4px rgba(37, 37, 37, 0.3);
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #969696;
+  color: #ffffff;
+}
+
+#result {
+  background: linear-gradient(to right, #4c8ee4, #44ce89);
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#result p:first-child {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+
+}
+
+#result p:nth-child(2) {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#result p:nth-child(3) {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+
+}
+
+#result p:nth-child(3)::before {
+  content: "Rezultat: ";
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#result {
+  background: linear-gradient(to right, #4c8ee4, #44ce89);
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease; /* dodajemo prijelaz */
+}
+
+#result:hover {
+  background: linear-gradient(to right, #44ce89, #4c8ee4); /* mijenjamo redoslijed boja */
+}
+p{
+  margin-top: 50px;
+  font-size: 36px;
+  text-shadow: 1px 1px 1px #040127; 
+  font-family: Arial, sans-serif;
+
+}

@@ -1,0 +1,202 @@
+html, body {
+	height: 100%;
+
+}
+
+#iksoks {
+    background-image: url(slike/IksOksPozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	color: blanchedalmond;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid #e4e4e4;
+	padding: 20px;
+	border-radius: 15px;
+	background: linear-gradient(to bottom, #4890fb, #0a8ce3);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+.container {
+	border: 2px solid rgb(5, 5, 5);
+	background: linear-gradient(rgb(198, 217, 243), rgb(135, 190, 241));
+	background-attachment: fixed;
+    box-shadow: 6px 6px 5px 3px rgba(36, 36, 36, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+.cell {
+	width: 100px;
+	height: 100px;
+	border: 1px solid rgb(43, 43, 43);
+	text-align: center;
+	font-size: 72px;
+	line-height: 100px;
+	cursor: pointer;
+}
+
+.cell:hover {
+	background-color: #e2e2e2;
+}
+
+#winner {
+	display: inline-block;
+  	width: 180px;
+  	height: 50px;
+  	text-align: center;
+}
+
+  
+#reset {
+	background-color: #eeeff0;
+	border: none;
+	color: rgb(0, 0, 0);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 20px;
+	cursor: pointer;
+	border-radius: 4px;
+  }
+  #reset:hover {
+	background-color: #249cd8;
+  }
+  
+  #reset:active {
+	background-color: #dd0404;
+  }
+  
+  #indeks {
+	background-color: #d4d4d4;
+	font-family: Arial, sans-serif;
+	margin-bottom: 50px;
+  }
+  h1 {
+	text-align: center;
+	margin-top: 40px;
+  }
+  h2 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 22px;
+  }
+  .igra {
+	width: 45%;
+	float: left;
+	margin: 20px;
+	margin-right: 25px;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.2s ease-in-out;
+	background: linear-gradient(to bottom, #4890fb, #0a8ce3);
+  }
+  
+  .igra:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .igra img {
+	width: 200px;
+	height: 200px;
+	margin: 20px 0;
+	border-radius: 8px;
+  }
+  
+  .igra p {
+	font-size: 20px;
+	margin: 10px 0;
+	font-family: 'Montserrat', sans-serif; 
+	color: #ffffff; 
+}
+  
+  .igra a {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to bottom, #48dbfb, #0a8ce3);
+
+	padding: 20px;
+  }
+  
+  h1 {
+	color: #fff;
+	margin: 0;
+  }
+  
+  nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav li {
+	margin: 0 10px;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+	border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+	
+  }
+  
+  nav a:hover {
+	border-bottom-color: #ff6600; 
+	color: #49eb21; 
+	}
+	nav a {
+		transition: all 0.2s ease-in-out;
+		}
+		nav a:hover {
+		transform: scale(1.1);
+		
+		}
+
+		iframe {
+			background-color: #f5f5f5;
+			border: 1px solid #ccc;
+			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+			height: 400px;
+			margin-bottom: 20px;
+		  }

@@ -1,0 +1,53 @@
+#game-canvas {
+  background-image: url(slike/zmijapozadina.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    border: 3px solid rgb(7, 214, 76);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; 
+    margin-left: -250px; 
+    width: 500px;
+    height: 500px;
+  }
+  
+  .snake {
+    fill: green;
+  }
+  
+  .food {
+    fill: red;
+  }
+ 
+  body{
+    background: rgb(32, 143, 21);
+
+  }
+  @keyframes pulse {
+    0% { background-color: rgba(204, 52, 6, 0.932); }
+    20% { background-color: rgb(221, 183, 11); }
+    40% { background-color: rgb(41, 156, 12); }
+    60% { background-color: rgb(20, 160, 216); }
+    80% { background-color: rgb(10, 196, 81); }
+    100% { background-color: rgb(219, 66, 5); }
+  }
+  
+  body {
+    animation: pulse 10s infinite;
+  }
+
+  .pticica{
+    top: 50%;
+    width: 20%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+ 
+  }
+
+  #gameover{
+    color: rgb(240, 14, 14);
+    position: center;
+  }
